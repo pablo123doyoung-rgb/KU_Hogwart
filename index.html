@@ -1,0 +1,29 @@
+﻿# GitHub 업로드 방법
+
+이 폴더 전체가 GitHub에 올릴 React/Vite 프로젝트입니다.
+
+## 가장 쉬운 방법
+
+1. GitHub에서 새 저장소를 만듭니다.
+2. 저장소 화면에서 `uploading an existing file` 또는 `Add file > Upload files`를 누릅니다.
+3. 이 폴더 안의 파일과 폴더를 전부 끌어다 놓습니다.
+4. `Commit changes`를 누릅니다.
+
+## 배포 방법: Vercel 기준
+
+1. Vercel에 로그인합니다.
+2. `Add New Project`를 누릅니다.
+3. 방금 만든 GitHub 저장소를 선택합니다.
+4. Framework Preset이 `Vite`로 잡히면 그대로 둡니다.
+5. Build Command: `npm run build`
+6. Output Directory: `dist`
+7. Deploy를 누릅니다.
+
+## 로컬에서 테스트하는 방법
+
+```bash
+npm install
+npm run dev
+```
+
+브라우저에서 Vite가 알려주는 주소를 열면 됩니다.
